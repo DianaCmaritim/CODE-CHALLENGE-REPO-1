@@ -1,8 +1,8 @@
-// prompt function
+// prompt command,initiate using npm install propt sync
 const prompt = require("prompt-sync")();
 let grade = prompt('Enter grade of student:');
 {
-//student grade
+//student grade conditions
 if (grade <= 100 && grade >79){
     console.log('A')
 }
