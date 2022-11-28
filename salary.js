@@ -92,13 +92,13 @@ function salaryCalculator (){
     let taxableIncome = gross- (nhifDeductions(gross) + nssfDeductions(gross))
 // computing paye using monthly taxable income and rate of tax in (%)
     if (gross > 0 && gross <= 24000){
-        payeAmount = taxableIncome * 0.1
+        payeAmount = 24000 * 0.1
 
     }else if (gross >= 24001 && gross <= 32333){
         payeAmount =(32333 -24001) * 0.25
 
     }else if(gross > 32333){
-        payeAmount = ((taxableIncome * 0.1) +((32333 -24001) * 0.25) + ((taxableIncome -32333)* 0.30))
+        payeAmount = ((24000 * 0.1) +((32333 -24001) * 0.25) + ((taxableIncome -32333)* 0.30))
     }
   return `The gross pay is ${gross}\n -Paye is ${payeAmount}\n -Net salary is ${gross - payeAmount}`
  }
