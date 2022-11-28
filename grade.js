@@ -2,7 +2,7 @@
 const prompt = require("prompt-sync")();
 let grade = prompt('Enter grade of student:');
 {
-//student grade conditions
+//student grade generation conditions
 if (grade <= 100 && grade >79){
     console.log('A')
 }
@@ -21,6 +21,9 @@ else if (grade <= 49 && grade >= 40 ){
 
 else if (grade < 40){
     console.log('E')
+}
+else{
+    console.log('enter correct percentage')
 }
 };
 
