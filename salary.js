@@ -95,10 +95,10 @@ function salaryCalculator (){
         payeAmount = taxableIncome * 0.1
 
     }else if (gross >= 24001 && gross <= 32333){
-        payeAmount = taxableIncome * 0.25
+        payeAmount =(32333 -24001) * 0.25
 
     }else if(gross > 32333){
-        payeAmount = taxableIncome * 0.30
+        payeAmount = ((taxableIncome * 0.1) +((32333 -24001) * 0.25) + ((taxableIncome -32333)* 0.30))
     }
   return `The gross pay is ${gross}\n -Paye is ${payeAmount}\n -Net salary is ${gross - payeAmount}`
  }
