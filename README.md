@@ -58,3 +58,4 @@ Use the followng steps to run the program
 ## Author
 - [@DianaCmaritim](https://www.github.com/DianaCmaritim)
 ## License
+The project is licensed under Apache 2.0.
