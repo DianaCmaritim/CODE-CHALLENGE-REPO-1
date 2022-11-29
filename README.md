@@ -1,22 +1,8 @@
 # PHASE-1 WEEK 1 CODE CHALLENGE
 
-## Project Setup
-   Instructions
-1. Create a repository on your GitHub account.
-2. Use Javascript to wire down the solution.
-3. Push the solution to the above repository once done.
-4. Submit the repository link for grading.
-5. Ensure your repository has a well written README.
-
-## Commands to run
-Run 'npm init' on the terminal to create the package-lock.json file,then run npm install to install the dependencies needed for the program.
-To check whether the code is working,run;
-   'node grade.js' for the student grade generator challenge
-   'node speed.js' for the speed detector challenge
-   'node salary.js' for the net salary calculator challenge
-
-
 ## Description
+This is what is required of the code challenge
+
 1. Challenge 1: Student Grade Generator (Toy Problem)
 Write that prompts the user to input student marks. The input should be between 0 and 100. Then output the correct grade:
 
@@ -37,7 +23,38 @@ https://www.aren.co.ke/payroll/taxrates.html Links to an external site.
 https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye Links to an external site.
 
 
+## Project Setup
+
+## Installation
+ Open a terminal / command line interface on your computer
+- Clone the repo by using the following:
+
+        git clone https://github.com/DianaCmaritim/CODE-CHALLENGE-REPO-1
+
+- This will create a copy of the repo on your local machine
+- Change directory to the repo folder:
+
+      cd CODE-CHALLENGE-REPO-1
+
+-  Open it in ``Visual Studio Code`` if you are using the Virtual Studio Code editor by running the following command on the terminal
+      code .
+
+- (Alternate Option) Open it in any editor of your choice.
+
+
+## Running the application
+Use the followng steps to run the program
+  - Run 'npm init' on the terminal to create the package-lock.json file
+  - Run npm install to install the dependencies needed for the program.
+  - To check whether the code is working,run;
+   -'node grade.js' for the student grade generator challenge
+   -'node speed.js' for the speed detector challenge
+   -'node salary.js' for the net salary calculator challenge
+
+
+
+
 
 ## Author
 - [@DianaCmaritim](https://www.github.com/DianaCmaritim)
-- "license": "ISC"
+## License
