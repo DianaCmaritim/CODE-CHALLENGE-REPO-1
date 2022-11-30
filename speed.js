@@ -1,8 +1,8 @@
-
+// prompt command,initiate using npm install prompt-sync
 const prompt = require("prompt-sync")();
 let speed = prompt('Enter speed of car: ');
 {
-    //speed detector conditions
+    //speed detector conditions using if, else if and else statements
     if(speed <= 70){
         console.log('Ok')
     }
