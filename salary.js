@@ -1,4 +1,4 @@
-// prompt command,initiate using npm install propt sync
+
 const prompt = require("prompt-sync")();
  //NHIF Deductions
 const nhifDeductions = function (gross) {
