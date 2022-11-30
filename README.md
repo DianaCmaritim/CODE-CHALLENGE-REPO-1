@@ -45,11 +45,19 @@ https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye Links to 
 ## Running the application
 Use the followng steps to run the program
   - Run npm install to install the dependencies needed for the program.
+
   - To check whether the code is working,run;
-   -npm install prompt-sync   to install the prompt function which will prompt the user for a command line input
-   -node grade.js for the student grade generator challenge
-   -node speed.js for the speed detector challenge
-   -node salary.js for the net salary calculator challenge
+
+
+         npm install prompt-sync   to install the prompt function which will prompt the user for a command line input
+
+         node grade.js for the student grade generator challenge
+
+
+         node speed.js for the speed detector challenge
+
+
+         node salary.js for the net salary calculator challenge
 
 
 
