@@ -29,6 +29,10 @@ https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye Links to 
  Open a terminal / command line interface on your computer
 - Clone the repo by using the following:
 
+  click Code, choose SSH, then click the clipboard icon to copy the information needed about this repository.
+
+  In your terminal, type git clone, and paste the info you copied from GitHub. The command should look something like this (but with your personal account name):
+
         git clone https://github.com/DianaCmaritim/CODE-CHALLENGE-REPO-1
 
 - This will create a copy of the repo on your local machine
