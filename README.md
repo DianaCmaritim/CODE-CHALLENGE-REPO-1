@@ -44,7 +44,6 @@ https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye Links to 
 
 ## Running the application
 Use the followng steps to run the program
-  - Run 'npm init' on the terminal to create the package-lock.json file
   - Run npm install to install the dependencies needed for the program.
   - To check whether the code is working,run;
    -'node grade.js' for the student grade generator challenge
